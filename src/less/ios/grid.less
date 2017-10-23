@@ -8,7 +8,7 @@
         box-sizing: border-box;
     }
 }
-@cols: 5, 10, 15, 20, 25, 100/3, 40, 50, 60, 100*(2/3), 75, 80, 85, 90, 95, 100;
+@cols: 5, 10, 15, 20, 25, 30, 100/3, 35, 40, 45, 50, 55, 60, 65, 100*(2/3), 70, 75, 80, 85, 90, 95, 100;
 .row {
     .col-auto {
         width: 100%;
@@ -69,7 +69,7 @@
             .-((@i - 1));
         } .-;
         .--(@j: 1) when (@j < length(@cols)) {
-            .tablet-auto:nth-last-child(@{j}), .tablet-auto:nth-last-child(@{j}) ~ .col-auto {
+            .tablet-auto:nth-last-child(@{j}), .tablet-auto:nth-last-child(@{j}) ~ .tablet-auto {
                 @j-1: @j - 1;  
                 width: 100% / @j;
                 width: ~"-webkit-calc((100% - 15px*@{j-1}) / @{j})";   

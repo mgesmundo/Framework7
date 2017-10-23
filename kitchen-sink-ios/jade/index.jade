@@ -9,6 +9,7 @@ html
     title Framework7 iOS
     link(rel="stylesheet", href="../build/css/framework7.ios.css")
     link(rel="stylesheet", href="../build/css/framework7.ios.colors.css")
+    link(rel="stylesheet", href="css/framework7-icons.css")
     link(rel="stylesheet", href="css/kitchen-sink.css")
     link(rel="icon", href="img/icon.png")
     link(rel="apple-touch-icon", href="img/icon.png")
@@ -151,12 +152,21 @@ html
                         .item-inner 
                           .item-title Accordion
                   li
+                    a(href="autocomplete.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Autocomplete
+                          .item-after
+                  li
                     a(href="calendar.html").item-link
                       .item-content
                         .item-media
                           i.icon.icon-f7
                         .item-inner 
                           .item-title Calendar / Datepicker
+                          .item-after
                   li
                     a(href="cards.html").item-link
                       .item-content
@@ -165,12 +175,35 @@ html
                         .item-inner 
                           .item-title Cards
                   li
+                    a(href="chips.html").item-link
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Chips/Tags
+                  li
                     a(href="contacts.html").item-link 
                       .item-content
                         .item-media
                           i.icon.icon-f7
                         .item-inner 
                           .item-title Contacts List
+                  li
+                    a(href="data-table.html").item-link
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner
+                          .item-title Data Tables
+                          .item-after
+                            span.badge.bg-green NEW
+                  li
+                    a(href="floating-button.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Floating Action Button
                   li
                     a(href="forms.html").item-link 
                       .item-content
@@ -185,6 +218,15 @@ html
                           i.icon.icon-f7
                         .item-inner 
                           .item-title Grid
+                  li
+                    a(href="icons.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Icons
+                          .item-after
+                            span.badge.bg-green #{icons.length}
                   li
                     a(href="infinite-scroll.html").item-link 
                       .item-content
@@ -277,6 +319,14 @@ html
                         .item-inner 
                           .item-title Preloader
                   li
+                    a(href="progressbar.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Progress Bar
+                          .item-after
+                  li
                     a(href="pull-to-refresh.html").item-link 
                       .item-content
                         .item-media
@@ -325,6 +375,14 @@ html
                           i.icon.icon-f7
                         .item-inner 
                           .item-title Tabs
+                          .item-after
+                  li
+                    a(href="timeline.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Timeline
                   li
                     a(href="virtual-list.html").item-link 
                       .item-content
@@ -334,6 +392,13 @@ html
                           .item-title Virtual List
               .list-block
                 ul
+                  li
+                    a(href="animation.html").item-link 
+                      .item-content
+                        .item-media
+                          i.icon.icon-f7
+                        .item-inner 
+                          .item-title Animation
                   li
                     a(href="color-themes.html").item-link 
                       .item-content
